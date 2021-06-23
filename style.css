@@ -42,7 +42,6 @@ header p{
 }
 
 .author_info{
-	width: 943.61px;
 	height: auto;
 	margin: 0 auto;
 }
@@ -70,14 +69,17 @@ color: #070707;
 .author_info p.author_name{
 	font-size: 47.3392px;
 	width: 123.51px;
-	height: 118.17px;
+	height: 105px;
 
 }
 
 .lang{
+	position: relative;
+	left: 23px;
+	bottom: -20px;
 	display: flex;
 	width: 65px;
-	margin-top: calc(56px - 23px);
+	height: auto;
 	justify-content: space-between;
 	transform: rotate(-90deg);
 }
@@ -261,6 +263,9 @@ p.RU{
 
 main{
 	margin-bottom: 114.24px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 footer{
@@ -323,10 +328,14 @@ footer{
 
 	body{
 		margin-top: 65px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.author_photo{
-		width:316.5px;
+		width:90vw;
 		height: 476px;
 		background-image: url('img/photo.png');
 		background-position: center;
@@ -335,11 +344,15 @@ footer{
 	}
 
 	.author_info{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 		width: 316.5px;
 		margin: 0 auto;
 	}
 
 	.author_info .text{
+		width: 90vw;
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
@@ -422,24 +435,30 @@ footer{
 
 	footer{
 		padding-bottom: 90px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.contacts{
+		width: 90vw;
 		height: 196px;
 		margin-bottom: 48px;
 	}
 
 	.contacts .send_mes{
-		width: 316px;
+		width: 90vw;
 	}
 
 	.social{
 		margin-bottom: 48.78px;
-		width: calc(100% - 60px);
+		width: 90vw;
 	}
 
 	.social_some_text{
-		font-size: 18px;
+		width: 90vw;
+		font-size: 5vw;
 	}
 
 	/*.author_info .text{
